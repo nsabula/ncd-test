@@ -60,57 +60,35 @@ ga:
 primary_navigation:
   - name: About Our Council
     children:
-      - name: Purpose and Vision
-        url: /vision/
-      - name: Members and Leadership
+      - name: Misson
+        url: /about-us/
+      - name: Council Members
         url: /members-and-leadership/
-      - name: Meetings & Events
+      - name: Council Staff
+        url: /staff/
+      - name: Email Directory
+        url: /contact/
+      - name: Council Meetings
         url: /meetings/
-      - name: Committees and Communities
-        url: /committees-communities/
-  - name: Policies, Publishing & Resources
+  - name: Policy Advice
     children:
       - name: Reports
         url: /reports/
-      - name: Correspondence
-        url: /correspondences/
+      - name: Letters
+        url: /letters/
       - name: Resources
         url: /resources/
       - name: FAQ
         url: /resources/faq/
-  - name: Accountability
-    children:
-      - name: Accountability
-        url: /accountability/
-      - name: Vulnerability Disclosure Policy
-        url: /accountability/vulnerability-disclosure-policy/
-      - name: Buy American Act Reports
-        url: /accountability/buy-american-act-reports/
-      - name: Government Performance and Results Act Reports
-        url: /accountability/government-performance-and-results-act-reports/
-      - name: Congressional Budget Justification Reports
-        url: /accountability/congressional-budget-justification-reports/
-      - name: Financial Audit Reports
-        url: /accountability/financial-audit-reports/
-      - name: NCD Strategic Plan
-        url: /accountability/ncd-strategic-plan/
-      - name: NCD Annual Employee Survey
-        url: /accountability/ncd-annual-employee-survey/
-      - name: NCD Bylaws
-        url: /accountability/ncd-bylaws/
-      - name: No Fear Act
-        url: /accountability/no-fear-act/
-      - name: Office of Special Counsel
-        url: https://osc.gov/
-  - name: News
+  - name: Newsroom
     url: /newsroom/
 
 
 secondary_navigation:
   - name: Contact US
-    url: "contact"
+    url: "/contact/"
   - name: Accountability
-    url: "Accountability"
+    url: "/accountability/"
 
 # Search.gov configuration
 #
@@ -146,12 +124,15 @@ collections:
   committees-communities:
     output: true
     permalink: /committee-community/:name/
-  correspondence:
+  letters:
     output: true
-    permalink: /correspondence/:name/
+    permalink: /letters/:name/
   members-and-leadership:
     output: true
     permalink: /members-and-leadership/:name/
+  staff:
+    output: true
+    permalink: /staff/:name/
   meetings:
     output: true
     permalink: /meeting/:name/

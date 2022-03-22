@@ -1,9 +1,9 @@
 ---
 layout: wide
-permalink: /reports/
+permalink: /letters/
 pagination:
   enabled: true
-  collection: reports
+  collection: letters
 ---
 
 <div class="grid-container">
@@ -11,10 +11,10 @@ pagination:
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       {%
         include collection-header.html
-        title="Reports"
+        title="Letters"
         description="
-          NCD publishes reports with recommendations to the President, Congress
-          and policymakers on national disability policy.
+          The communications sent to Congress regarding the agency priorities,
+          policy trends, and other agency business.
         "
       %}
       {% for post in paginator.posts %}
@@ -28,9 +28,8 @@ pagination:
     </div>
     {%
       include aside-page-links.html
-      title="Reports By Year"
-      limit=40
-      items=site.data.report_years
+      title="Recent Letters"
+      items=site.letters
     %}
   </div>
 </div>

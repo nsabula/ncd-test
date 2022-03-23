@@ -1,9 +1,9 @@
 ---
 layout: wide
-permalink: /correspondences/
+permalink: /staff/
 pagination:
   enabled: true
-  collection: correspondence
+  collection: staff
 ---
 
 <div class="grid-container">
@@ -11,10 +11,10 @@ pagination:
     <div class="desktop:grid-col-8 usa-prose padding-right-4">
       {%
         include collection-header.html
-        title="Correspondences"
+        title="Staff"
         description="
-          The communications sent to Congress regarding the agency priorities,
-          policy trends, and other agency business.
+          The staff of the National Council on Disability
+          that lead agency priorities, policy trends, and other agency business.
         "
       %}
       {% for post in paginator.posts %}
@@ -26,10 +26,5 @@ pagination:
       <!-- Pagination links -->
       {% include paginator.html %}
     </div>
-    {%
-      include aside-page-links.html
-      title="Recent Correspondences"
-      items=site.correspondence
-    %}
   </div>
 </div>

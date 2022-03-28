@@ -5,15 +5,23 @@ date: February 9, 2022
 redirect_from:
   - /Accountability/No_Fear_Act
 ---
-## No FEAR Act data
-
-No FEAR Act data, updated December 31, 2020 ([PDF](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Data%20FY2020.pdf)) ([DOC](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Data%20FY2020.docx))
+No FEAR Act data, updated March 28, 2022
 
 ## Reports to Congress
+
+**Annual Reports**
 
 FY 2020 Report ([PDF](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY20.pdf)) ([DOC](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY2019.docx))\
 FY 2019 Report ([PDF](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY2019.pdf)) ([DOC](https://ncd.gov/sites/default/files/Documents/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY2019.docx))\
 FY 2018 Report ([PDF](https://ncd.gov/sites/default/files/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY2018.pdf)) ([DOC](https://ncd.gov/sites/default/files/National%20Council%20on%20Disability%20No%20Fear%20Act%20Report%20FY2018.docx))
+
+**Quarterly Reports**
+
+FY2021 Q1 Report ([PDF](https://ncd.gov/sites/default/files/Documents/NCD%20No%20Fear%20Act%20FY21%20Q1.pdf))\
+FY2021 Q2  Report ([PDF](https://ncd.gov/sites/default/files/Documents/NCD%20No%20Fear%20Act%20FY21%20Q2.pdf))\
+FY2021 Q3  Report ([PDF](https://ncd.gov/sites/default/files/Documents/NCD%20No%20Fear%20Act%20FY21%20Q3.pdf))\
+FY2021 Q4  Report ([PDF](https://ncd.gov/sites/default/files/Documents/NCD%20No%20Fear%20Act%20FY21%20Q4.pdf))\
+FY2022 Q1  Report ([PDF](https://ncd.gov/sites/default/files/Documents/NCD%20No%20Fear%20Act%20FY22%20Q1.pdf))
 
 ## **Notice**
 

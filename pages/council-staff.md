@@ -1,9 +1,9 @@
 ---
 layout: single-page
-published: false
+published: true
 permalink: staff
 redirect_from: []
-title: Council Staff
+title: Staff
 ---
 ## Executive Director
 

@@ -4,7 +4,7 @@
   "scripts": {
     "build": "bundle exec jekyll build --verbose",
     "clean": "bundle exec jekyll clean",
-    "dev": "rm -rf .jekyll-cache && bundle exec jekyll clean && bundle exec jekyll serve --livereload --safe --incremental",
+    "dev": "rm -rf .jekyll-cache && bundle exec jekyll clean && bundle exec jekyll serve --livereload --incremental",
     "dev-cms": "npx netlify-cms-proxy-server",
     "reset": "npx rimraf .git",
     "start": "bundle exec jekyll serve",

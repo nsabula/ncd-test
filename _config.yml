@@ -61,7 +61,7 @@ primary_navigation:
   - name: About Our Council
     children:
       - name: Misson
-        url: /about-us/
+        url: /about/
       - name: Council Members
         url: /members-and-leadership/
       - name: Council Staff
@@ -151,14 +151,6 @@ collections:
 
 permalink: pretty
 
-markdown: kramdown
-plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
-  - jekyll-redirect-from
-  - jekyll-sitemap # See additional instructions for url parameter above.
-  - jekyll-seo-tag
-
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
 # The values here represent the defaults if nothing is set
@@ -173,7 +165,7 @@ pagination:
   #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
   # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
   title: ":title - page :num"
-  # Limit how many pagenated pages to create (default: 0, means all)
+  # Limit how many paginated pages to create (default: 0, means all)
   limit: 0
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
   sort_field: "date"
@@ -211,9 +203,14 @@ exclude:
   - Gemfile.lock
 
 assets:
+  autoprefixer:
+    browsers:
+      - "> 2%"
+      - "last 2 versions"
+      - "IE 11"
+      - "not dead"
+  compression: true
   sources:
     - _assets/uploads
-    - node_modules/uswds/dist/img
-    - node_modules/uswds/dist/js
-    - node_modules/uswds/dist/scss
+    - node_modules/uswds/dist
     - node_modules/netlify-cms/dist

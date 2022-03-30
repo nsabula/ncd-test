@@ -32,7 +32,12 @@
       usa-list--unstyled
     "
     >
-      {% for item in include.items limit:include.limit | 3 %}
+      {% if include.limit %}
+        {% assign item_limit = include.limit %}
+      {% else %}
+        {% assign item_limit = 3 %}
+      {% endif %}
+      {% for item in include.items limit:item_limit %}
       <li
         class="
           border-bottom-1px
@@ -42,7 +47,7 @@
           text-bold
         "
       >
-        <a class="usa-link text-primary-vivid text-no-underline" href="{{site.baseurl}}{{item.url}}"
+        <a class="usa-link text-no-underline" href="{{site.baseurl}}{{item.url}}"
           >{{ item.title }}</a
         >
       </li>

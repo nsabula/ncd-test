@@ -1,8 +1,8 @@
-<section class="border-y border-base-lighter padding-y-4 margin-y-4">
-  <div class="grid-container usa-section usa-prose padding-y-2">
-    <h2 class="text-black font-heading-xl margin-top-0 tablet:margin-bottom-0">
+<section class="border-y border-base-lighter padding-y-4">
+  <div class="grid-container usa-section padding-y-2">
+    <h1 class="section-heading">
       Featured
-    </h2>
+    </h1>
   </div>
   <div class="grid-container overflow-x-scroll">
     <div  >
@@ -19,7 +19,6 @@
                   <a
                     class="
                       usa-link
-                      text-primary-vivid
                       hover:text-primary-dark
                       text-no-underline
                       font-sans-lg
@@ -30,21 +29,27 @@
                       <header class="usa-card__header">
                         <p>
                           <span class="usa-tag">
-                            {{ collection_name }}
+                            {% if collection_name == 'posts' %}
+                              Newsposts
+                            {% else %}
+                              {{ collection_name }}
+                            {% endif %}
                           </span>
                         </p>
                       </header>
-                      <div class="usa-card__media">
-                        <div class="usa-card__img">
+                      <div class="usa-card__media flex-align-center">
+                        <div class="display-flex flex-column flex-align-center width-full">
                           {% if item.image %}
                             {% asset "{{ item.image }}"
                               alt="{{ item.image_alt }}"
                               role="image"
+                              class="circle-15"
                             %}
                           {% else %}
                             {% asset "{{ collection_name }}.png"
                               alt="Image of {{ collection_name }}"
                               role="image"
+                              class="circle-15"
                             %}
                           {% endif %}
                         </div>

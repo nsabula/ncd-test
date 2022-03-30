@@ -1,7 +1,7 @@
 ---
 layout: single-page
 published: true
-permalink: staff
+permalink: /staff/
 redirect_from:
   - https://federalist-b18a24ce-146d-4000-a7cd-f2edf2e34224.app.cloud.gov/site/nsabula/ncd-test/staff/
 title: Staff

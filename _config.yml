@@ -56,40 +56,6 @@ dap:
 ga:
   # ua: your-ua
 
-# Site Navigation
-primary_navigation:
-  - name: About Our Council
-    children:
-      - name: Misson
-        url: /about/
-      - name: Council Members
-        url: /members-and-leadership/
-      - name: Council Staff
-        url: /staff/
-      - name: Email Directory
-        url: /contact/
-      - name: Council Meetings
-        url: /meetings/
-  - name: Policy Advice
-    children:
-      - name: Reports
-        url: /reports/
-      - name: Letters
-        url: /letters/
-      - name: Resources
-        url: /resources/
-      - name: FAQ
-        url: /resources/faq/
-  - name: Newsroom
-    url: /newsroom/
-
-
-secondary_navigation:
-  - name: Contact US
-    url: "/contact/"
-  - name: Accountability
-    url: "/accountability/"
-
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
@@ -127,9 +93,9 @@ collections:
   letters:
     output: true
     permalink: /letters/:name/
-  members-and-leadership:
+  council-members:
     output: true
-    permalink: /members-and-leadership/:name/
+    permalink: /council-members/:name/
   meetings:
     output: true
     permalink: /meeting/:name/

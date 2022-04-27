@@ -4,7 +4,7 @@ title: A Cursory Look at AbilityOne
 date: February 22, 2019
 report_year: 2019
 document: ""
-image_alt: NA
+image_alt_text: NA
 ---
 
 SCOPE AND PURPOSE: In this first of a two-part series, NCD assesses the AbilityOne Program and the work of the AbilityOne Commission in the context of federal disability law and policy. The program is centered on the requirements that federal agencies must purchase goods and services from the AbilityOne Program if contained on a procurement list approved and updated by the Commission, and that people who are blind or have a severe disability account for at least 75 percent of the direct labor hours used to provide the service or produce the goods. Since 2013, the program has come under scrutiny from the press, the Government Accountability Office, and Congress for a lack of rigorous oversight and transparency.

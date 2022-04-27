@@ -129,7 +129,7 @@ collections:
     name: letters
     folder: _letters/
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{date}}-{{slug}}'
     editor:
       preview: true
     fields:
@@ -139,8 +139,8 @@ collections:
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
-          format: 'MMMM D, YYYY',
-          date_format: 'MMMM D, YYYY',
+          format: 'YYYY-MM-DD',
+          date_format: 'YYYY-MM-DD',
           time_format: false,
         }
       - {
@@ -326,8 +326,8 @@ collections:
           label: 'Meeting Date',
           name: 'date',
           widget: 'datetime',
-          format: 'MMMM D, YYYY',
-          date_format: 'MMMM D, YYYY',
+          format: 'YYYY-MM-DD',
+          date_format: 'YYYY-MM-DD',
           time_format: false,
         }
       - {
@@ -407,7 +407,7 @@ collections:
     name: posts
     folder: _posts/
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{date}}-{{slug}}'
     editor:
       preview: true
     fields:
@@ -417,8 +417,8 @@ collections:
           label: 'Publish Date',
           name: 'date',
           widget: 'datetime',
-          format: 'MMMM D, YYYY',
-          date_format: 'MMMM D, YYYY',
+          format: 'YYYY-MM-DD',
+          date_format: 'YYYY-MM-DD',
           time_format: false,
         }
       - { label: 'Excerpt', name: 'excerpt', required: false, widget: 'text' }
@@ -479,7 +479,7 @@ collections:
         }
       - {
           label: 'Image Alternative Tag',
-          name: 'image_alt',
+          name: 'image_alt_text',
           widget: 'string',
           required: true,
         }
@@ -564,7 +564,7 @@ collections:
           label: 'Report Year',
           name: 'report_year',
           widget: 'number',
-          default: 2021,
+          default: 2022,
           value_type: 'int',
           min: 1980,
           max: 2030,
@@ -584,11 +584,26 @@ collections:
           required: false,
         }
       - {
-          label: 'Report Document',
-          name: 'document',
+          label: 'Categories',
+          name: 'categories',
+          widget: 'select',
+          required: false,
+          multiple: true,
+          options: ["toolkit", "progress report", "framework", "fact sheet"]
+        }
+      - {
+          label: 'Report Word Document',
+          name: 'word_document',
           widget: 'file',
           required: false,
-          allow_multiple: false,
+          media_folder: '/_assets/uploads/reports/{{report_year}}',
+          public_folder: 'reports/{{report_year}}',
+        }
+      - {
+          label: 'Report PDF Document',
+          name: 'pdf_document',
+          widget: 'file',
+          required: false,
           media_folder: '/_assets/uploads/reports/{{report_year}}',
           public_folder: 'reports/{{report_year}}',
         }
@@ -603,7 +618,7 @@ collections:
         }
       - {
           label: 'Image Alternative Tag',
-          name: 'image_alt',
+          name: 'image_alt_text',
           widget: 'string',
           required: true,
         }

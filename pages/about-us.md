@@ -1,7 +1,7 @@
 ---
 layout: single-page
 published: true
-permalink: /about-us/
+permalink: /about/
 redirect_from:
   - /about
 title: About Us
